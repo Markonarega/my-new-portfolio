@@ -14,9 +14,9 @@ const projects = [
     id: 2,
     title: "MERN Landing Page 2",
     description: "Another beautiful landing Page app using React And Tailwind",
-    image: "/projects/project2.png.jpg",
+    image: "/projects/crm.png",
     tags: ["react", "tailwind", "Node.js"],
-    demoUrl: "#",
+    demoUrl: "https://crm-five-theta.vercel.app/",
     githubUrl: "#",
   },
   {
@@ -90,7 +90,7 @@ const ProjectSection = () => {
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                         aria-label={`${project.title} GitHub`}
                       >
-                        <Github size={20} />
+                        {/* <Github size={20} /> */}
                       </a>
                     </div>
                   </div>
