@@ -13,7 +13,8 @@ const projects = [
   {
     id: 2,
     title: "MERN Landing Page 2",
-    description: "Another beautiful landing Page app using React And Tailwind",
+    description:" My CRM Project",
+"A scalable CRM built from scratch for freelancers and startups, starting with client management, projects, and tasks, and designed to grow with features like analytics, invoicing, and integrations. Built with React, Tailwind, Node.js/Go, and PostgreSQL/MongoDB, it showcases my ability to design, develop, and scale modern web applications.",
     image: "/projects/crm.png",
     tags: ["react", "tailwind", "Node.js"],
     demoUrl: "https://crm-five-theta.vercel.app/",
